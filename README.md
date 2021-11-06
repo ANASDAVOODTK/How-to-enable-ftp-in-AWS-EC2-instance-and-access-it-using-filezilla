@@ -6,7 +6,7 @@ Usually Ec2 instance are accessible via pem file. To override that we have to en
 To enable password authentication in EC2 instance,
 Run the following command
 
-     sudo vi /etc/ssh/sshd_config
+     sudo nano /etc/ssh/sshd_config
 Edit value
         
     PasswordAuthentication:yes
